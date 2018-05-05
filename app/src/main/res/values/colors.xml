@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/red_gplus</color>
+    <color name="colorPrimaryDark">@color/red_gplus_dark</color>
+    <color name="colorAccent">@color/orange</color>
+    <color name="black_overlay">#BD000000</color>
+    <color name="black_overlay2">#AA000000</color>
+    <color name="red_gplus">#d34836</color>
+    <color name="red_gplus_dark">#FFD72710</color>
+    <color name="green_accept">#43d535</color>
+    <color name="green_accept_dark">#FF15A308</color>
+    <color name="gray_light">#EEEEEE</color>
+    <color name="gray">#d2d1d1</color>
+    <color name="yellow_lime_600">#c0ca33</color>
+    <color name="yellow_lime_dark">#969e28</color>
+    <color name="yellow_gold">#dac226</color>
+    <color name="yellow">#ffd51d</color>
+    <color name="white_background">#fbfbfb</color>
+    <color name="pink">#ff69b4</color>
+    <color name="orange">#eda862</color>
+    <color name="black">#000000</color>
+    <color name="darker_gray">#616060</color>
+</resources>

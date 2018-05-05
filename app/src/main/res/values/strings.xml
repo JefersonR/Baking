@@ -1,0 +1,66 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Configurações</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!--Errors-->
+    <string name="connection_error">Problema com a conexão. Conecte e tente novamente!</string>
+    <string name="connection_fail">Houve uma falha nos nossos servidores, tente novamente.</string>
+    <string name="label_confirm">Confirmar</string>
+    <string name="label_cancel">Cancelar</string>
+    <string name="label_loading">Carregando…</string>
+    <string name="label_wait">Aguarde</string>
+    <string name="label_update">Atualização</string>
+    <string name="label_error">Erro</string>
+    <string name="label_fail">Falha</string>
+    <string name="label_connection">Conexão</string>
+    <string name="label_session">Sessão expirada</string>
+
+    <!--Font-->
+    <string name="font_raleway_extra_bold" translatable="false">fonts/Raleway-ExtraBold.ttf</string>
+    <string name="font_openSans_bold" translatable="false">fonts/OpenSans-Bold.ttf</string>
+    <string name="font_openSans_regular" translatable="false">fonts/OpenSans-Regular.ttf</string>
+
+    <!--Labels-->
+    <string name="str_build">Opa, ainda em construção!</string>
+    <string name="str_discovery">Descubra</string>
+    <string name="label_baking_not_found" tools:ignore="Typos">Ops, nenhuma receita encontrada no momento!</string>
+    <string name="label_trailer_not_found" tools:ignore="Typos">Ops, nenhum trailer encontrado no momento!</string>
+    <string name="label_reviews_not_found" tools:ignore="Typos">Ops, nenhum resumo encontrado no momento!</string>
+    <string name="label_connection_fail">Desculpe-nos, não foi possível processar a sua solicitação.</string>
+    <string name="label_zero">0</string>
+    <string name="str_base_img">http://image.tmdb.org/t/p/w185%s</string>
+    <string name="str_base_img_big">http://image.tmdb.org/t/p/w500%s</string>
+    <string name="title_menu">Menu</string>
+    <string name="str_sort_popular">Ordenar: Popularidade</string>
+    <string name="str_sort_classification">Ordenar: Classificação</string>
+    <string name="str_sort_favoritos">Ordenar: Favoritos</string>
+    <string name="title_evaluation">Avaliação</string>
+    <string name="title_step">Como fazer</string>
+    <string name="title_recipe">Receita - %s</string>
+    <string name="title_ingredients">Ingredientes</string>
+    <string name="str_app_name">Receitas</string>g>
+    <string name="str_no_info">Nenhuma informação disponível.</string>
+    <string name="str_step">Passo %d:  %s</string>
+    <string name="str_step_simple">%d:  %s</string>
+    <string name="str_title_original">Título original: %s</string>
+    <string name="str_release_date">Lançamento: %s</string>
+    <string name="str_language">Idioma original: %s</string>
+    <string name="str_ingredient">* %s (%.1f %s)</string>
+    <string name="content_authority">br.udacity.app</string>
+    <string name="str_trailer">Trailer</string>
+    <string name="str_query_delete"> %s = ? </string>
+    <string name="str_query_contains">Select * from %s where %s = %s</string>
+    <string name="label_step_number">Passo %d</string>
+    <string name="label_introduction">Introdução</string>
+    <string name="label_description">Descrição:</string>
+    <string name="label_video_not_found">Não há video para esse passo.</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+
+</resources>

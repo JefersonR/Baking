@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    style="@style/Theme.AppCompat.NoActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_border_edittext"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/regular_space_one"
+    android:paddingLeft="@dimen/regular_space_two"
+    android:paddingRight="@dimen/regular_space_two"
+    android:paddingTop="@dimen/regular_space_two">
+
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:fontFamily="serif"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/regular_space_two"
+        android:layout_marginTop="@dimen/regular_space_one"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:maxLines="13"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/regular_space_one"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_send"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/regular_space_two"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:fontFamily="sans-serif"
+            android:foreground="?selectableItemBackground"
+            android:text="@string/label_confirm"
+            android:textColor="@android:color/white"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/regular_space_two"
+            android:layout_weight="1"
+            android:background="@color/darker_gray"
+            android:fontFamily="sans-serif"
+            android:foreground="?selectableItemBackground"
+            android:text="@string/label_cancel"
+            android:textColor="@android:color/white"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</LinearLayout>

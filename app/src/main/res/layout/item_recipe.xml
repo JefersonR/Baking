@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/card_item"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_centerInParent="true"
+    android:layout_marginBottom="@dimen/spacing_medium"
+    android:layout_marginLeft="@dimen/spacing_big"
+    android:layout_marginRight="@dimen/spacing_big"
+    android:layout_marginTop="@dimen/spacing_medium"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:background="@drawable/img_placeholder_loading_error" />
+
+        <br.udacity.components.OpenSansBoldTextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="@dimen/regular_space_two"
+            android:paddingRight="@dimen/regular_space_two"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="2"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:background="@color/black_overlay"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+           />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
